@@ -66,7 +66,7 @@ public class StringCalculatorTest {
 
     @Test
     public void addNumbersOverAThousand_IgnoresThousands(){
-        commonAssertions("4,5\n2021,1999\n1",10);
+        commonAssertions("4,5\n2021,1000\n1",1010);
     }
 
     @Test

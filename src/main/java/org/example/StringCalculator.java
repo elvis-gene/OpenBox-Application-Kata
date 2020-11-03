@@ -89,7 +89,7 @@ public class StringCalculator {
             if (num < 0)
                 negativeNumbers.add(Integer.toString(num));
             else
-                sum += (num < 1000)? num : 0;
+                sum += (num < 1001)? num : 0;
         }
         if (negativeNumbers.size() == 0)
             return sum;
